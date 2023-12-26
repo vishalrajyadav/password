@@ -1,0 +1,30 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  
+  background:linear-gradient(60deg,rgb(2, 2, 2),rgb(35, 28, 28),rgb(114, 110, 110));
+}
+button,label,h1{
+  color: white;
+}
+button{
+  margin: 5px;
+  background: linear-gradient(45deg,blue,rgb(31, 31, 183),rgb(50, 50, 142));
+}
+.box{
+ background: radial-gradient(rgb(247, 103, 103),rgb(251, 35, 35),rgb(255, 1, 1));
+  width: 50vw;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px green;
+}
+h1{
+  color: white;
+}
+.input{
+  height: 30px;
+  border-radius: 10px;
+}
